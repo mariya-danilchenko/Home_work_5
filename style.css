@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    min-width: 945px;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: rgb(181, 247, 225);
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+    text-decoration: overline;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:nth-child(3n+2) a {
+    color: rgb(38, 153, 10);
+    text-decoration: underline dashed rgb(38, 153, 10);
+}
+
+li:nth-child(3) a {
+    text-decoration: line-through red;
+}
+
+.menu li a:hover {
+    font-weight: 800;
+    color: rgb(4, 172, 116);
+}
+
+.box {
+    border-color: black;
+    width: 23vw;
+    min-width: 420px;
+    height: 18vh;
+    line-height: 2;
+    text-indent: 20px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h2 {
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 5px;
+}
+
+.style-box-1 {
+    margin-left: 5%;
+    background-color: rgb(245, 248, 78);
+}
+
+.border-dotted {
+    border: 3px dotted;
+}
+
+.style-box-2 {
+    margin-left: 75%;
+    border: 3px;
+    background-color: rgb(215, 245, 83);
+}
+
+.border-dashed {
+    border: 3px dashed;
+}
+
+.style-box-3 {
+    margin-left: 15%;
+    border: 3px;
+    background-color: rgb(228, 126, 248);
+}
+
+.border-dashed {
+    border: 3px dashed;
+}
+
+.style-box-4 {
+    margin-left: 50%;
+    border: 3px;
+    background-color: rgb(245, 104, 127);
+}
+
+.border-dotted {
+    border: 3px dotted;
+}
